@@ -1,0 +1,5 @@
+outs:
+- md5: 88f4b463b8da7b20a613e08d28f43432
+  size: 94224
+  hash: md5
+  path: placement_targets_v1.csv
