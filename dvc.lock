@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python preprocess.py
+    deps:
+    - path: data/placement_targets.csv
+      hash: md5
+      md5: 2c3c375004ad1969b04b8272687b7ba1
+      size: 89223
+    - path: preprocess.py
+      hash: md5
+      md5: 19119ec95bc40b2bf08c702fb37e614d
+      size: 301
+    outs:
+    - path: data/placement_targets_v1.csv
+      hash: md5
+      md5: 88f4b463b8da7b20a613e08d28f43432
+      size: 94224
